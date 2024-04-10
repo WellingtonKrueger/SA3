@@ -1,0 +1,70 @@
+{% extends "global/index.html" %}
+
+{% load static %}
+
+{% block title %}home{% endblock title %}
+
+{% block content %}
+<main id="main">
+
+    <div class="text">
+        <div>
+            <h1 id="title">Gladiador</h1>
+            <p class="desativado">Gladiador venceu cinco categorias no Oscar 2001, incluindo a de Melhor Filme, além de outros prêmios vencidos no BAFTA e no Globo de Ouro.</p>
+        </div>
+        <div id="img-div">
+            <img id="image" src="https://upload.wikimedia.org/wikipedia/pt/4/44/GladiadorPoster.jpg">
+            <p class="desativado p" id="img-caption"><b>Capa do filme</b></p>
+        </div>
+            <h2>Tudo sobre Gladiador</h2>
+    </div>    
+            <div id="tribute-info">
+                <ul>
+                    <p>Filme britano-americano de 2000, dos gêneros drama histórico, ação e aventura, dirigido por Ridley Scott, com roteiro de David Franzoni, John Logan e William Nicholson.</p>
+
+                        <p>Estrelado por Russell Crowe, Joaquin Phoenix, Connie Nielsen, Ralf Möller, Oliver Reed, Djimon Hounsou, Derek Jacobi, John Shrapnel e Richard Harris, Gladiador foi distribuído pela Dreamworks SKG somente para a América do Norte, enquanto a Universal Pictures distribuiu mundialmente. Crowe interpreta o leal general Maximus Decimus Meridius, chamado de Espanhol no filme, que é traído quando o ambicioso filho do imperador, Cómodo, mata seu pai e toma o trono. Reduzido a um escravo, Máximo ascende através das lutas de gladiadores para vingar a morte de sua família e do antigo imperador.</p>
+                        
+                        <p>Lançado em 5 de maio de 2000, Gladiador foi um enorme sucesso de bilheteria, recebendo críticas geralmente favoráveis. O filme foi indicado a vários prêmios, vencendo cinco Oscars incluindo o de Melhor Filme.</p>
+                        
+                            <p>Gladiador foi um sucesso de público e crítica, sendo considerado um marco para o cinema e iniciou uma nova onda de filmes históricos.</p>
+
+
+
+                <div class="p">
+                    <p class="desativado"><i>“'Nesta vida ou na próxima, terei minha vingança?'.”</i></p>
+                </div>
+                    <h5>Você pode ler mais sobre o filme através do link: <a id="tribute-link" target="_blank" href="https://pt.wikipedia.org/wiki/Gladiador_(filme)">wikipedia</a></h3>
+          
+                </div>
+        
+    </div>
+</main>
+
+<div class="container mt-4 mb-4 p-5">
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">Gladiador,
+                    
+                <p> Filme britano-americano de 2000, dos gêneros drama histórico, ação e aventura, dirigido por Ridley Scott, com roteiro de David Franzoni, John Logan e William Nicholson.</p>
+        
+                    <p>Estrelado por Russell Crowe, Joaquin Phoenix, Connie Nielsen, Ralf Möller, Oliver Reed, Djimon Hounsou, Derek Jacobi, John Shrapnel e Richard Harris, Gladiator foi distribuído pela Dreamworks SKG somente para a América do Norte, enquanto a Universal Pictures distribuiu mundialmente. Crowe interpreta o leal general Maximus Decimus Meridius, chamado de Espanhol no filme, que é traído quando o ambicioso filho do imperador, Cómodo, mata seu pai e toma o trono. Reduzido a um escravo, Máximo ascende através das lutas de gladiadores para vingar a morte de sua família e do antigo imperador.</p>
+                    
+                    <p>Lançado em 5 de maio de 2000, Gladiator foi um enorme sucesso de bilheteria, recebendo críticas geralmente favoráveis. O filme foi indicado a vários prêmios, vencendo cinco Oscars incluindo o de Melhor Filme.</p>
+                    
+                        <p>Gladiator foi um sucesso de público e crítica, sendo considerado um marco para o cinema e iniciou uma nova onda de filmes históricos.</p>
+        </div>
+        <div class="col-md-5">
+            <img src="{% static 'img/gladiador.jpg' %}" alt="Filme Gladiador"
+                class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                height="500" role="img" focusable="false">
+        </div>
+    </div>
+            <img src="{% static 'img/Atores.png' %}"
+                class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                height="500" role="img" focusable="false">
+        </div>
+    </div>
+{% endblock content %}
